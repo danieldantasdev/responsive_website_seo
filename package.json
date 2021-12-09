@@ -1,7 +1,7 @@
 {
-  "name": "responsive-page",
+  "name": "daniel-lobinhodev",
   "version": "1.1.0",
-  "description": "Boilerplate básico para projetos front-end com ênfase em HTML/CSS.",
+  "description": "SEO website foi uma aplicação prática feita para uma empresa fictícia, como treino das habilidades nas tecnologias listadas no readme. O mesmo é responsivo para as diferentes resoluções.",
   "main": "script.js",
   "scripts": {
     "start": "npm run dev",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/desenvolvweb/basic-front-boilerplate.git"
+    "url": "git+https://github.com/lobinhodev/Responsive-website-SEO"
   },
   "keywords": [],
   "author": "",
