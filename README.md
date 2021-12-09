@@ -24,6 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 - SASS
+- NODEJS
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 Bibliotecas
