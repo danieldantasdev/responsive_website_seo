@@ -14,7 +14,7 @@
 
 ## 📢 Visite o site
 
-[SEO](https://lobinhodev.github.io/Responsive-website-seo/).
+[SEO](https://serene-spence-2db9d2.netlify.app/).
 
 ## 🧠 Tecnologias
 
