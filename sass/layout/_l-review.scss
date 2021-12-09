@@ -1,0 +1,55 @@
+/* Reviews */
+.reviews {
+  .box-container {
+    @include grid(31rem);
+
+    .box {
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        img {
+          height: 7rem;
+          width: 7rem;
+          border-radius: 50%;
+        }
+
+        h3 {
+          font-size: 2rem;
+          color: var(--color-webfatorial-black);
+          padding-bottom: 0.5rem;
+        }
+
+        .stars {
+          i {
+            font-size: 1.5rem;
+            color: var(--color-webfatorial-red);
+          }
+        }
+      }
+
+      .text {
+        padding: 2rem;
+        border-radius: 0.5rem;
+        background: var(--color-webfatorial-light-bg);
+        font-size: 1.5rem;
+        color: var(--color-webfatorial-light-color);
+        position: relative;
+        margin-top: 3rem;
+        line-height: 2;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: -1rem;
+          left: 2rem;
+          height: 2rem;
+          width: 2rem;
+          background: var(--color-webfatorial-light-bg);
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+}

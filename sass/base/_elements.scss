@@ -12,7 +12,15 @@
 
   text-transform: capitalize;
 
+  transition: all 0.3s linear;
+}
+
+a {
   transition: all 0.2s linear;
+}
+
+a:hover:not(.logo) {
+  letter-spacing: 0.1rem;
 }
 
 @mixin grid($val) {
@@ -29,14 +37,14 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 8rem;
+  scroll-padding-top: 10rem;
 
   &::-webkit-scrollbar {
     width: 1rem;
   }
 
   &::-webkit-scrollbar-track {
-    background: transparent;
+    background: var(--color-webfatorial-light-black);
   }
 
   &::-webkit-scrollbar-thumb {
@@ -46,9 +54,19 @@ html {
 }
 
 body {
-  background-color: var(--color-webfatorial-black);
+  background-color: var(--color-webfatorial-white-1);
 }
 
+body.active {
+  --color-webfatorial-black: #fff;
+  --color-webfatorial-white-1: #111;
+  --color-webfatorial-light-color: #aaa;
+  --color-webfatorial-light-bg: #222;
+}
+
+section {
+  padding: 3rem 9%;
+}
 // @see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 // @see https://www.nicchan.me/blog/tips-for-focus-styles/#consider-adding-a-little-bit-of-breathing-room
 *,
@@ -121,42 +139,43 @@ sub {
 // ==========================================================================
 
 // @see https://twitter.com/argyleink/status/1413850241477005312
-:root {
-  --brand: #157bad;
-  accent-color: var(--brand);
-}
+// :root {
+//   --brand: #157bad;
+//   accent-color: var(--brand);
+// }
 
 html {
-  caret-color: var(--brand);
+  caret-color: var(--color-webfatorial-red);
 }
 
-body {
-  font-size: $global-font-size;
-}
+// body {
+//   font-size: $global-font-size;
+// }
 
 :focus-visible {
-  outline-color: var(--brand);
+  outline-color: var(--color-webfatorial-red);
 }
 
 ::selection {
-  background-color: var(--brand);
+  background-color: var(--color-webfatorial-red);
+  color: var(--color-webfatorial-primary);
 }
 
 ::marker {
-  color: var(--brand);
+  color: var(--color-webfatorial-red);
 }
 
 ::-webkit-calendar-picker-indicator {
-  color: var(--brand);
+  color: var(--color-webfatorial-red);
 }
 
 ::-webkit-clear-button {
-  color: var(--brand);
+  color: var(--color-webfatorial-red);
 }
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  color: var(--brand);
+  color: var(--color-webfatorial-red);
 }
 
 // input::placeholder {}
