@@ -29,22 +29,22 @@ window.onscroll = () =>{
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
 const scrollReveal = ScrollReveal({
-  origin: 'top',
-  distance: '30px',
-  duration: 700,
-  reset: true
+    origin: 'top',
+    distance: '30px',
+    duration: 700,
+    reset: true
 })
 
 scrollReveal.reveal(
-  `#home .box .image, .box,
-  #services .box, #services .card,
-  #work .image,
-  #about .image, #about .text,
-  #contact .box-container, #contact .box, #contact .form,
-  .newsletter,
-  .quick-links,
-  .credit,
-  footer .brand, footer .social
-  `,
-  { interval: 100 }
+    `#home .box .image, .box,
+    #services .box, #services .card,
+    #work .image,
+    #about .image, #about .text,
+    #contact .box-container, #contact .box, #contact .form,
+    .newsletter,
+    .quick-links,
+    .credit,
+    footer .brand, footer .social
+    `,
+    { interval: 50 }
 )
