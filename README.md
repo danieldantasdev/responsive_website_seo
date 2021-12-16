@@ -32,7 +32,7 @@
 
 ## 📢 Visite o site
 
-[SEO](https://serene-spence-2db9d2.netlify.app/).
+[SEO](https://responsive-website-seo.netlify.app/).
 
 ## 🧠 Tecnologias
 
