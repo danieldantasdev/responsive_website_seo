@@ -1,5 +1,23 @@
 # SEO website
 
+## Pré-requisitos
+
+- Node.js
+
+## Indicações
+
+- nvm
+- Execute `nvm use` para usar a versão Node recomendada para o projeto
+
+### Comandos
+
+| Comando                                                          | O que faz?                  | Observação                       |
+| ---------------------------------------------------------------- | --------------------------- | -------------------------------- |
+| `git clone https://github.com/lobinhodev/Responsive-website-SEO` | Clona meu repositório       | **Execute no terminal!**         |
+| `npm install`                                                    | Instala pacotes necessários | Instala as dependências que usei |
+| `npm start`                                                      | Inicia o desenvolvimento    | Acesse `http://localhost:1234`   |
+| `npm run build`                                                  | Faz build do site           | Resultado na pasta `dist`        |
+
 ### Desktop
 
 <p align="center">
@@ -45,27 +63,9 @@ Utilizei o [BFB](https://github.com/desenvolvweb/basic-front-boilerplate) como t
 
 Boilerplate básico para projetos front-end com ênfase em HTML e CSS.
 
-## Pré-requisitos
-
-- Node.js
-
-## Indicações
-
-- nvm
-- Execute `nvm use` para usar a versão Node recomendada para o projeto
-
 ## Uso
 
 O BFB utiliza o [Parcel](https://pt.parceljs.org/), que é um bundler que atende ao objetivo do projeto, é rápido e não precisa de configuração. Então, o projeto tem suporte a [Sass](https://sass-lang.com/), suporte a JavaScript moderno com Babel e muitos mais.
-
-### Comandos
-
-| Comando                                                          | O que faz?                  | Observação                       |
-| ---------------------------------------------------------------- | --------------------------- | -------------------------------- |
-| `git clone https://github.com/lobinhodev/Responsive-website-SEO` | Clona meu repositório       | **Execute no terminal!**         |
-| `npm install`                                                    | Instala pacotes necessários | Instala as dependências que usei |
-| `npm start`                                                      | Inicia o desenvolvimento    | Acesse `http://localhost:1234`   |
-| `npm run build`                                                  | Faz build do site           | Resultado na pasta `dist`        |
 
 ### Considerações
 
