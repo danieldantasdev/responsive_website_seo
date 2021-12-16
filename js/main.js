@@ -1,5 +1,5 @@
 let menu = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.container-header .container-nav');
+let navbar = document.querySelector('.l-header .l-nav');
 
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
@@ -24,7 +24,7 @@ window.onscroll = () =>{
 
     let maxHeight = window.document.body.scrollHeight - window.innerHeight;
     let percentage = ((window.scrollY) / maxHeight) * 100;
-    document.querySelector('.container-header .scroll-indicator').style.width = percentage + '%';
+    document.querySelector('l-header .scroll-indicator').style.width = percentage + '%';
 };
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
@@ -36,15 +36,12 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-    `#home .box .image, .box,
-    #services .box, #services .card,
-    #work .image,
-    #about .image, #about .text,
-    #contact .box-container, #contact .box, #contact .form,
-    .newsletter,
-    .quick-links,
-    .credit,
-    footer .brand, footer .social
+    `#home .l-home__image,
+    #services, .l-services__box,
+    #work, .l-work__box-container,
+    #pricing, .l-pricing__box,
+    #reviews, .l-reviews__box,
+    #contact, .l-contact__box, .l-contact__form
     `,
     { interval: 50 }
 )

@@ -1,12 +1,12 @@
 /* Newsletter */
-.newsletter {
+.l-newsletter {
   background: var(--color-webfatorial-red);
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
 
-  .content {
+  &__content {
     flex: 1 1 42rem;
 
     h3 {
@@ -36,7 +36,7 @@
       text-transform: none;
     }
 
-    .btn {
+    .c-button {
       margin-top: 0;
       background: #333;
       color: #fff;

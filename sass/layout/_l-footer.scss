@@ -1,12 +1,12 @@
 /* Footer */
-.quick-links {
+.l-link {
   display: flex;
   align-items: center;
   gap: 2rem;
   background: var(--color-webfatorial-black);
   justify-content: space-between;
 
-  .logo {
+  &__logo {
     color: var(--color-webfatorial-white-1);
     font-size: 2.5rem;
 
@@ -15,7 +15,7 @@
     }
   }
 
-  .links {
+  &__quick-links {
     a {
       margin-left: 2rem;
       font-size: 1.7rem;
@@ -28,7 +28,7 @@
   }
 }
 
-.credit {
+.l-footer {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -44,7 +44,7 @@
     }
   }
 
-  .share {
+  &__share {
     a {
       margin-left: 2rem;
       font-size: 2.5rem;

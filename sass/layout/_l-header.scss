@@ -1,5 +1,5 @@
 /* Header */
-.container-header {
+.l-header {
   position: sticky;
   top: 0;
   left: 0;
@@ -10,7 +10,7 @@
   align-items: center;
   padding: 2rem 9%;
 
-  .logo {
+  .l-header__logo {
     margin-right: auto;
     color: var(--color-webfatorial-black);
     font-size: 2.5rem;
@@ -20,7 +20,7 @@
     }
   }
 
-  .container-nav a {
+  .l-nav a {
     margin-right: 2rem;
     font-size: 1.7rem;
     color: var(--color-webfatorial-light-color);
@@ -29,11 +29,11 @@
       color: var(--color-webfatorial-red);
     }
   }
-  .container-ul-menu {
+  .l-menu {
     display: flex;
   }
 
-  .container-ul-menu li {
+  .l-menu li {
     margin: 0 1rem;
   }
 
@@ -73,7 +73,7 @@
     font-size: 55%;
   }
 
-  .container-header {
+  .l-header {
     padding: 2rem;
   }
 
@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 768px) {
-  .container-header {
+  .l-header {
     #menu-btn {
       display: inline-block;
 
@@ -92,7 +92,7 @@
       }
     }
 
-    .container-nav {
+    .l-nav {
       position: absolute;
       top: 99%;
       left: 0;
@@ -112,10 +112,19 @@
     }
   }
 
-  .newsletter {
+  .l-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .l-contact__box-container {
+    width: 35rem;
+  }
+
+  .l-newsletter {
     justify-content: center;
 
-    .content {
+    .l-newsletter__content {
       text-align: center;
 
       h3 {
@@ -128,11 +137,11 @@
     }
   }
 
-  .quick-links {
+  .l-link {
     flex-flow: column;
     text-align: center;
 
-    .links {
+    .l-link__quick-links {
       a {
         margin: 2rem 0;
         display: block;
@@ -140,11 +149,11 @@
     }
   }
 
-  .credit {
+  .l-footer {
     flex-flow: column;
     text-align: center;
 
-    .share {
+    .l-footer__share {
       a {
         margin: 0 1rem;
       }
