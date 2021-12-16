@@ -2,7 +2,8 @@
 
 ## Pré-requisitos
 
-- Node.js
+- `Node.js`
+- `Git`
 
 ## Indicações
 
