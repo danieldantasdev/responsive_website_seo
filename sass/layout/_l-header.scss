@@ -99,9 +99,13 @@
       right: 0;
       background: var(--color-webfatorial-light-bg);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      // visibility: none;
+      // opacity: 0;
 
       &.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        // visibility: visible;
+        // opacity: 1;
       }
 
       a {
