@@ -1,5 +1,19 @@
 # SEO website
 
+## 💻 Projeto
+
+SEO website foi uma aplicação prática feita para uma empresa fictícia, como treino das habilidades nas tecnologias listadas acima. O mesmo é responsivo para as diferentes resoluções.
+
+Utilizei o [BFB](https://github.com/desenvolvweb/basic-front-boilerplate) como template base do SASS,desenvolvido pela [dpw](https://github.com/desenvolvweb).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📢 Visite o site
+
+[SEO](https://responsive-website-seo.netlify.app/).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Pré-requisitos
 
 - `Node.js`
@@ -31,10 +45,6 @@
   <img width="400"  src=".github/Mobile.gif">
 </p>
 
-## 📢 Visite o site
-
-[SEO](https://responsive-website-seo.netlify.app/).
-
 ## 🧠 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -50,13 +60,6 @@ Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
 - [ScrollRevel](https://scrollrevealjs.org)
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## 💻 Projeto
-
-SEO website foi uma aplicação prática feita para uma empresa fictícia, como treino das habilidades nas tecnologias listadas acima. O mesmo é responsivo para as diferentes resoluções.
-
-Utilizei o [BFB](https://github.com/desenvolvweb/basic-front-boilerplate) como template base do SASS,desenvolvido pela [dpw](https://github.com/desenvolvweb).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -64,9 +67,13 @@ Utilizei o [BFB](https://github.com/desenvolvweb/basic-front-boilerplate) como t
 
 Boilerplate básico para projetos front-end com ênfase em HTML e CSS.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Uso
 
 O BFB utiliza o [Parcel](https://pt.parceljs.org/), que é um bundler que atende ao objetivo do projeto, é rápido e não precisa de configuração. Então, o projeto tem suporte a [Sass](https://sass-lang.com/), suporte a JavaScript moderno com Babel e muitos mais.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Considerações
 
@@ -77,6 +84,20 @@ Algo importante sobre estilos é que o arquivo `sass/style.scss` importa todos o
 Se necessário for, você pode executar o comando para fazer o build, que vai minificar os assets, fazer as devidas substituições e tudo o mais que é comum em builds.
 
 Apesar de este boilerplate contar com uma das mais atuais arquiteturas CSS possíveis atualmente -- SMACSS, BEM e Namespaces CSS -- e suporte a ES6, seu uso é recomendado mais para testes e estudos.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Referências
+
+- [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp)
+- [W3Schools referência CSS](https://www.w3schools.com/cssref/default.asp)
+- [Google Fonts](https://fonts.google.com/)
+- [Coolors](https://coolors.co/palettes/trending)
+- [Paletton](https://paletton.com/)
+- [W3Schools propriedades CSS no DOM](https://www.w3schools.com/jsref/dom_obj_style.asp)
+- [MDN lista de eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [CSS BEM](https://desenvolvimentoparaweb.com/css/bem/)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
