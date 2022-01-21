@@ -17,6 +17,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,400;1,700;1,display=swap"
     rel="stylesheet">
+  <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -201,9 +203,10 @@
     <!-- Reviews section starts  -->
     <section class="l-reviews" id="reviews">
       <h1 class="c-heading"> clients <span>reviews</span> </h1>
-      <div class="l-reviews__box-container">
+      <div class="l-reviews__box-container swiper-container ">
+        <div class="swiper-wrapper">
         <!-- First box -->
-        <div class="l-reviews__box">
+        <div class="l-reviews__box swiper-slide" >
           <div class="l-reviews__user">
             <img src="img/pic-1.png" alt="Imagem do usuário" lazy="loading">
             <div class="l-reviews__info">
@@ -224,7 +227,7 @@
         </div>
 
         <!-- Second box -->
-        <div class="l-reviews__box">
+        <div class="l-reviews__box swiper-slide">
           <div class="l-reviews__user">
             <img src="img/pic-2.png" alt="Imagem do usuário" lazy="loading">
             <div class="l-reviews__info">
@@ -244,8 +247,9 @@
             ut repudiandae!</p>
         </div>
 
+
         <!-- Third box -->
-        <div class="l-reviews__box">
+        <div class="l-reviews__box swiper-slide">
           <div class="l-reviews__user">
             <img src="img/pic-3.png" alt="Imagem do usuário" lazy="loading">
             <div class="l-reviews__info">
@@ -264,6 +268,9 @@
             beatae
             ut repudiandae!</p>
         </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
       </div>
     </section>
     <!-- Reviews section ends -->
@@ -365,6 +372,9 @@
 
 <!-- scrollreveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
+
+ <!-- SWIPPER -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
   <!-- Scripts -->
   <script src="js/main.js"></script>

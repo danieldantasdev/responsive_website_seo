@@ -28,21 +28,37 @@ window.onscroll = () =>{
   document.querySelector('.l-header .scroll-indicator').style.width = percentage + '%';
 };
 
-/* ScrollReveal: Mostrar elementos quando der scroll na página */
-const scrollReveal = ScrollReveal({
-    origin: 'top',
-    distance: '30px',
-    duration: 700,
-    reset: true
-})
+// /* ScrollReveal: Mostrar elementos quando der scroll na página */
+// const scrollReveal = ScrollReveal({
+//     origin: 'top',
+//     distance: '30px',
+//     duration: 700,
+//     reset: true
+// })
 
-scrollReveal.reveal(
-    `#home .l-home__image,
-    #services, .l-services__box,
-    #work, .l-work__box-container,
-    #pricing, .l-pricing__box,
-    #reviews, .l-reviews__box,
-    #contact, .l-contact__box, .l-contact__form
-    `,
-    { interval: 50 }
-)
+// scrollReveal.reveal(
+//     `#home .l-home__image,
+//     #services, .l-services__box,
+//     #work, .l-work__box-container,
+//     #pricing, .l-pricing__box,
+//     #reviews, .l-reviews__box,
+//     #contact, .l-contact__box, .l-contact__form
+//     `,
+//     { interval: 50 }
+// )
+
+/* Swiper */
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  pagination: {
+      el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true,
+  breakpoints: {
+      767: {
+          slidesPerView: 2,
+          setWrapperSize: true
+      }
+  }
+})

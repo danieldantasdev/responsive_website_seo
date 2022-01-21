@@ -2,6 +2,7 @@
 .l-reviews {
   &__box-container {
     @include grid(31rem);
+    overflow-x: hidden;
   }
 
   &__box {
@@ -51,5 +52,32 @@
       background: var(--color-webfatorial-light-bg);
       transform: rotate(45deg);
     }
+  }
+  /* ========SWIPER================================ */
+  .swiper-container,
+  .swiper-wrapper {
+    position: relative;
+  }
+
+  .swiper-slide {
+    height: auto;
+    padding: 4rem 1rem;
+    position: relative;
+  }
+
+  .swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 2rem;
+  }
+
+  .swiper-pagination {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: var(--color-webfatorial-red);
   }
 }
