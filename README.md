@@ -59,7 +59,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
-- [ScrollRevel](https://scrollrevealjs.org)
+- [ScrollReveal](https://scrollrevealjs.org)
+- [SwiperJs](https://swiperjs.com);
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
